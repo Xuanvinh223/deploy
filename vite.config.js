@@ -9,4 +9,5 @@ export default defineConfig({
       { find: '@', replacement: path.resolve(__dirname, 'src') },
     ],
   },
+  base: '/deploy/', // Thay "deploy" bằng tên repository của bạn
 });
